@@ -43,11 +43,11 @@ class MobileChatScreen extends StatelessWidget {
                 padding: EdgeInsets.symmetric(horizontal: 20.0),
                 child: Icon(Icons.emoji_emotions, color: Colors.grey,),
               ),
-              suffixIcon: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+              suffixIcon: const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
-                  children: const [
+                  children: [
                     Icon(Icons.camera_alt, color: Colors.grey,),
                     Icon(Icons.attach_file, color: Colors.grey,),
                     Icon(Icons.money, color: Colors.grey,),
